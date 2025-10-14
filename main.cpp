@@ -1,5 +1,10 @@
 #include <iostream>
+#include "prime.h"
 
+void myFunction1()
+{
+    std::cout << "This is myFunction1." << std::endl;
+}
 
 double square(double x)
 {
@@ -14,6 +19,8 @@ void print_square(double x)
 
 int main()
 {
+    myFunction1();
+
     std::cout << "Hello World!" << std::endl;
     print_square(1.234);
     
