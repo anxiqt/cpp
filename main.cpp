@@ -23,6 +23,7 @@ int main()
 
     std::cout << "Hello World!" << std::endl;
     print_square(1.234);
+    std::cout << "The square is: " << square(4) << std::endl;
     
     return 0;
 }
