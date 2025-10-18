@@ -21,4 +21,12 @@ A data item is said to be a member of that type.
 
 A "data type" is a type together with a collection of operations to manipulate that type. 
 
-An "abstract data type" (ADT) is the realization of a data type as a software component. 
+An "abstract data type" (ADT) is the realization of a data type as a software component. The interface of the ADT is defined in terms of a type and set of operations on that type. The behavior of each operation is determined by its inputs and outputs.
+
+An ADT does not specify how the data type is implemented. These implementation details are hidden from the user of the ADT and protected from outside access, a concept called encapsulation. 
+
+A 'data structure' is the implementation for an ADT. In an object-oriented language such as C++, an ADT and its implementation together make up a class. Each operation associated with the ADT is implemented by a member function or method. The variables that define the space required by a data item are referred to as data members. 
+
+An object is an instance of a class, that is, something that is created and takes up storage during the execution of a program.
+
+Data types have both a 'logical' and 'physical' form. 
